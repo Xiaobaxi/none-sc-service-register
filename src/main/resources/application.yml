@@ -1,0 +1,21 @@
+spring:
+ cloud:
+  service-registry:
+   enabled: false
+   auto-registration:
+    enabled: false
+  consul:
+   host: 127.0.0.1
+   port: 8500
+   ribbon:
+    enabled: false
+   discovery:
+    enabled: false
+    heartbeat:
+     enabled: false
+  config:
+   discovery:
+    enabled: false
+server:
+  port: 8888
+  context-path: /service-register
