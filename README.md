@@ -1,1 +1,1 @@
-## service register for the none spring cloud dependencies project
+## consul service register for the none spring cloud dependencies project
